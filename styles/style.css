@@ -6,3 +6,98 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 15px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+.navigation-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 30px;
+    display: flex;
+    align-items: left;
+}
+
+.nav-bar {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 2em; 
+    padding: 14px 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-bar-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+}
+
+.header {
+    height: 650px;
+    position: relative; 
+    background-image: url(https://camo.githubusercontent.com/1586ce5f6246ea62bdc8bff554da37ac07d2d941/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f69687765626465622f696d6167652f75706c6f61642f76313537313038353833362f49726f6e6861636b2f73706f746966792d70726f746f747970655f31785f61686b3865702e6a7067);
+}
+
+.background-image {
+    width: 800px;
+}
+
+.top-section {
+
+}
+
+.top-box {
+
+}
+
+.box {
+
+}
+
+.icon {
+    width: 20px;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom-section > h2 {
+    text-align: left;
+}
+
+.bottom-box {
+
+}
